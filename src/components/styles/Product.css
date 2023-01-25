@@ -1,5 +1,5 @@
-.content{
-  display:flex;
+.content {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -10,6 +10,7 @@
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in-out;
   overflow: hidden;
+  margin: auto;
 }
 
 .product-card:hover {
@@ -64,4 +65,15 @@
 
 .card-icons i:hover {
   color: #f44336;
+}
+
+.tituloProduto {
+  text-align: center;
+  font-size: 4.2em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
