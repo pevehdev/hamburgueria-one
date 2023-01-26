@@ -1,19 +1,22 @@
 nav {
     background-color: rgba(0, 0, 0, 0.7);
-
+    font-family: 'Noto Serif', serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 1%;
+    justify-content: space-around;
+
+    
+    
 
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+    font-size: 20px;
+  
+
+
 }
 
 nav ul li a {
@@ -25,4 +28,19 @@ nav ul li a {
 nav ul li a:hover {
     color: #ea1538;
     transition: .3s;
+    
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: -300px;
+    justify-content: center;
+}
+a:link {
+    color:burlywood; 
+}
+a:visited {
+    color: burlywood;
 }
