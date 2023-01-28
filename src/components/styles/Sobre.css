@@ -1,0 +1,26 @@
+
+.P1 {
+    color:black;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 40px;
+    display: inline-block;
+  }
+    
+  .bloco1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .P2{
+    color:black;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 40px;
+    
+  }
+  
