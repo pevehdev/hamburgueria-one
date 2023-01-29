@@ -1,17 +1,12 @@
 
 import { Link } from "react-router-dom";
-import Estilo from './Navbar.css'
+import './Navbar.css'
 
 export default function Navbar() {
   return(
     <nav>
-         
-      <div> 
-        <h2 >
-        Hamburgueria <span>One</span>
-      </h2>
-      </div>
-      
+         <img src="../imagens/logo.png" className="logo"></img>
+    
       <ul>
         <Link to="/produtos"><li>
           Produtos
@@ -19,7 +14,7 @@ export default function Navbar() {
         
         
         <Link to="/sobre"><li>
-          Sobre Nós
+          Sobre nós
         </li>
         </Link>
         

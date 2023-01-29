@@ -66,13 +66,13 @@ const HamburguerForm = () => {
 
             <div>
                 <label>Descrição:</label>
-                <input name="descricao" onChange={handleChange} value={formData.descricao} />
+                <input className='camposCadastroBurguer' name="descricao" onChange={handleChange} value={formData.descricao} />
                 {errors.descricao && <p>{errors.descricao}</p>}
             </div>
 
             <div>
                 <label>Preco:</label>
-                <input type="number" name="preco" onChange={handleChange} value={formData.preco} />
+                <input className='camposCadastroBurguer' type="number" name="preco" onChange={handleChange} value={formData.preco} />
                 {errors.preco && <p>{errors.preco}</p>}
             </div>
             <button className='botaoCadastroBurguer' disabled={isSubmitting}>Cadastrar</button>

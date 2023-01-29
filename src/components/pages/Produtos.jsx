@@ -35,13 +35,14 @@ export default function Produtos() {
   }, [])
 
   return (
+
     <div>
       <h2 className="tituloProduto">Hamburguers</h2>
       <div >
+
         {hamburguers ? (
 
           <div className='content product-grid'>
-
             {hamburguers.map(hamburguer => (
               <div className="product-card" key={hamburguer.id}>
                 <div className="card-img">
@@ -68,6 +69,7 @@ export default function Produtos() {
 
       <h2 className="tituloProduto">Bebidas</h2>
       <div >
+          
         {bebidas ? (
 
           <div className='content product-grid'>
@@ -75,7 +77,7 @@ export default function Produtos() {
             {bebidas.map(bebida => (
               <div className="product-card" key={bebida.id}>
                 <div className="card-img">
-                  <img src={Imagem} alt="My Image" />
+                  <img src={bebida.imagem} alt="My Image" />
                 </div>
                 <div>
                   <h3>{bebida.nome}</h3>
@@ -98,10 +100,10 @@ export default function Produtos() {
 
       <h2 className="tituloProduto ">Acompanhamentos</h2>
       <div >
+
         {acompanhamentos ? (
 
           <div className='content product-grid'>
-
             {acompanhamentos.map(acompanhamento => (
               <div className="product-card" key={acompanhamento.id}>
                 <div className="card-img">
@@ -127,6 +129,7 @@ export default function Produtos() {
 
       <h2 className="tituloProduto">Combos</h2>
       <div >
+
         {combos ? (
 
           <div className='content product-grid'>

@@ -1,6 +1,6 @@
 import '../styles/Sobre.css';
 
-import Login from "../styles/Login.css";
+// import Login from "../styles/Login.css";
 
 export default function Sobre() {
   return (
