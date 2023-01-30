@@ -1,5 +1,5 @@
 import '../styles/Sobre.css';
-import foto from '../../../imagens/Hamburguer.jpg';
+import foto from "../../../imagens/hamburguer.jpg";
 
 // import Login from "../styles/Login.css";
 
@@ -15,7 +15,7 @@ export default function Sobre() {
           clientes.{" "}
         </p>
         <div className="imagem1">
-          <img src={foto} className="imagem1"></img>
+          <img src={foto} className="imagem1"/>
         </div>
       </div>
 
