@@ -1,38 +1,42 @@
 import "../styles/Home.css";
+import img from "../../../imagens/bburguer.jpg"
+import img2 from "../../../imagens/FazerPedido.jpeg"
+import { Link } from "react-router-dom";
 
 export default function Home() {
-  return (
+    return (
 
-<div>
+        <div className="container-home">
+            <div className="content-home">
+                <div className="bloco1">
+                    <img src={img} alt="" srcset="" />
+                </div>
 
- <div className="um">
- <div className="tex1">
-        <p> One Burguer</p>
-      </div>
+                <div className="bloco2">
+                    <div>
+                        <p className="texto1"> One Burguer </p>
+                    </div>
+                    <div className="teste">
+                        <div className="bloco3">
+                            <div>
+                                
+                                <p className="texto2"> O melhor e mais suculento hamburguer </p>
+                               
+                                
+                            </div>
 
-      <div className="b1">
-      <img src="./imagens/bburguer.jpg"></img>
-      </div>
-
-      
-      </div>
-      
-< div className="dois">
-
-<div className="text2">
-
-<p> O melhor e mais suculento hamburguer </p>
-
-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bloco4">
+                <Link to="/produtos">
+                <img src={img2} alt="" srcset="" />
+                </Link>
 
 
-<div className="b2">
-   
-<img src="./imagens/aburguer.jpg"></img>
-      </div>
+            </div>
+        </div>
 
-</div>
-
-</div>
-  );
+    );
 }
