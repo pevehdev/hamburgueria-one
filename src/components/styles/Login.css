@@ -5,10 +5,15 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 2px 2px 5px #ccc;
 }
-
+.card-title{
+  color: #DEB887;
+}
+.card-label{
+  color: #DEB887;
+}
 .camposLogin {
   width: 100%;
   padding: 12px 20px;
@@ -16,6 +21,7 @@
   box-sizing: border-box;
   border: 1px solid ccc;
   border-radius: 4px;
+  
 }
 
 .botaoLogin{

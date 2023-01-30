@@ -28,17 +28,13 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
+.label-color{
+  color: black;
+}
 /*  */
 
-main {
-  display: flex;
-  justify-content: center;
 
-
-  padding: 3rem 0;
-}
-
+/* 
 .card-post {
   background-color: #2F3644;
   padding: 30px 70px;
@@ -115,7 +111,7 @@ textarea {
 
   padding: 5px 50px;
   color: #fff;
-  background-color: #3DECB1;
+  background-color: #4CAF50;
 
   border: 0;
   border-radius: 10px;
@@ -126,4 +122,4 @@ textarea {
 
 .error-message {
   color: rgb(240, 47, 47);
-}
+} */

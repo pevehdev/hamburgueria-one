@@ -21,17 +21,17 @@ function LoginForm() {
 
   return (
     <form className="formulario" onSubmit={handleSubmit}>
-      <h1> Login</h1>
-      <label>
+      <h1 className="card-title"> Login</h1>
+      <label className="card-label">
         Email:
         <br /> <input className='camposLogin'
           type="email"
           value={email}
           onChange={event => setEmail(event.target.value)}
         /> 
-      </label>
+      </label >
       <br />
-      <label>
+      <label className="card-label">
         Senha:
         <br />
         <input className='camposLogin'
