@@ -20,6 +20,7 @@ function LoginForm() {
   }
 
   return (
+    <div id="container">
     <form className="formulario" onSubmit={handleSubmit}>
       <h1 className="card-title"> Login</h1>
       <label className="card-label">
@@ -46,6 +47,7 @@ function LoginForm() {
       </Link>
       
     </form>
+    </div>
   );
 }
 

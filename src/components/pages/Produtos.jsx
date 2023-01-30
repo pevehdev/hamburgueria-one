@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import Styles from '../styles/Product.css'
-import Imagem from '../../assets/Hamburguer/burguer1.jpg'
+
 import axios from 'axios'
 
 export default function Produtos() {
@@ -53,6 +53,9 @@ export default function Produtos() {
                   <p>{hamburguer.descricao}</p>
                   <p>R${hamburguer.preco}</p>
                 </div>
+                <div class="card-icons">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
               </div>
             ))}
           </div>
@@ -84,6 +87,9 @@ export default function Produtos() {
                   <p>{bebida.volume}</p>
                   <p>R${bebida.preco}</p>
                 </div>
+                <div class="card-icons">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
               </div>
             ))}
           </div>
@@ -111,8 +117,11 @@ export default function Produtos() {
                 </div>
                 <div>
                   <h3>{acompanhamento.nome}</h3>
-                  <p>{acompanhamento.volume}</p>
+                  <p>{acompanhamento.descricao}</p>
                   <p>R${acompanhamento.preco}</p>
+                </div>
+                <div class="card-icons">
+                  <i class="fas fa-shopping-cart"></i>
                 </div>
               </div>
             ))}
@@ -141,8 +150,11 @@ export default function Produtos() {
                 </div>
                 <div>
                   <h3>{combo.nome}</h3>
-                  <p>{combo.volume}</p>
+                  <p>{combo.descricao}</p>
                   <p>R${combo.preco}</p>
+                </div>
+                <div class="card-icons">
+                  <i class="fas fa-shopping-cart"></i>
                 </div>
               </div>
             ))}
