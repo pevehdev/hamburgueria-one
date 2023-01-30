@@ -5,8 +5,9 @@ import './Navbar.css'
 export default function Navbar() {
   return(
     <nav>
+        <Link to="/">
          <img src="../imagens/logo.png" className="logo"></img>
-    
+        </Link>
       <ul>
         <Link to="/produtos"><li>
           Produtos
