@@ -1,0 +1,53 @@
+.um{ background-color: black;}
+
+.tex1 {
+
+    color:#dfd3d3;
+    
+  font-size: 50px;
+    width: 300px;
+    height: 20px;
+    padding: 20px;  
+    margin-top:10px;
+
+}
+
+.b1 {
+    display: inline-flex;
+    width: 450px;
+    height: 560px;
+    padding: 10px;
+    margin-left: 275px;
+    box-sizing: border-box;
+    size: 200px;    
+   
+}
+
+.dois {
+
+background-color: black;
+
+}
+
+
+.text2 {
+    color: rgb(234, 238, 241);
+    display: inline-flex;
+    width: 100 px;
+    height: 20px;
+    padding: 20px;
+   font-size: 50px;   
+    margin-left: 800px;
+   
+}
+
+
+.b2 {  display: inline-flex;
+    width: 100px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    size: 200px;  }
+
+
+
