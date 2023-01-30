@@ -11,4 +11,4 @@ Como navegar no site:
 Assim que abrir você é direcionado para a pagina 'Home' o logo na 'Navbar' irá te redirecionar para essa página a qualquer momento da navegação. 
 Se você clicar no link 'Produtos' verá todas as opções de hamburgueres, bebidas, acompanhamentos combos que nossa hamburgueria oferece. 
 A página seguinte 'Sobre nós' fala um pouco sobre como surgiu nossa loja. 
-Por último temos a pagina de 'Login' onde o admnistrador do site pode alterar, adicionar ou remover itens do cardápio. 
+Por último temos a pagina de 'Login' onde o administrador do site pode alterar, adicionar ou remover itens do cardápio. 
