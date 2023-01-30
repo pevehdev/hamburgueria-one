@@ -46,7 +46,7 @@ export default function Produtos() {
             {hamburguers.map(hamburguer => (
               <div className="product-card" key={hamburguer.id}>
                 <div className="card-img">
-                  <img src={Imagem} alt="My Image" />
+                  <img src={hamburguer.imagem} alt="My Image" />
                 </div>
                 <div>
                   <h3>{hamburguer.nome}</h3>
@@ -107,7 +107,7 @@ export default function Produtos() {
             {acompanhamentos.map(acompanhamento => (
               <div className="product-card" key={acompanhamento.id}>
                 <div className="card-img">
-                  <img src={Imagem} alt="My Image" />
+                  <img src={acompanhamento.imagem} alt="My Image" />
                 </div>
                 <div>
                   <h3>{acompanhamento.nome}</h3>
@@ -137,7 +137,7 @@ export default function Produtos() {
             {combos.map(combo => (
               <div className="product-card" key={combo.id}>
                 <div className="card-img">
-                  <img src={Imagem} alt="My Image" />
+                  <img src={combo.imagem} alt="My Image" />
                 </div>
                 <div>
                   <h3>{combo.nome}</h3>
