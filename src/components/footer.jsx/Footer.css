@@ -1,0 +1,32 @@
+
+.icone{
+    width: 50px;
+    height: 50px;
+    justify-content: start;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 80px;
+}
+
+.links {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    position: relative;
+    font-family: 'Noto Serif', serif;;
+
+}
+
+.total {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Noto Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+p{
+    margin-bottom: 10px;
+    margin-left: 850px;
+    color: burlywood;
+}
