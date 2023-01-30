@@ -5,7 +5,7 @@ Faça o download da pasta e extraia para uma pasta destino. Abra a pasta inteira
 Na parte inferior da tela irá abrir um terminal estilo prompt e você deve digitar "npm install". Abra um novo terminal, como as instruções acima, nesse você irá digitar "npm run dev", quando acabar de carregar aparecerá um endereço começando por "localhost: ####" copie esse link e cole em uma guia do navegador. Pronto seu terminal está configurado e pronto para rodar o nosso projeto.
 
 Sobre o projeto: 
-Nós usamos uma API Json server desenvolvida no Projeto individual do modulo 3, o objetivo do projeto em grupo era desenvolver um site usando React que utilizava essa API e deveria realizar os metodos HTTP: GET, PUT, POST e DELETE.
+Nós usamos uma API Json server desenvolvida no Projeto individual do modulo 3, o objetivo do projeto em grupo era desenvolver um site usando React que utilizava essa API e deveria realizar os metodos HTTP: GET, PUT, POST e DELETE. O servidor utilizado como API está no seguinte endereço: https://produtos.onrender.com/ .
 
 Como navegar no site: 
 Assim que abrir você é direcionado para a pagina 'Home' o logo na 'Navbar' irá te redirecionar para essa página a qualquer momento da navegação. 
