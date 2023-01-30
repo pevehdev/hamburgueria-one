@@ -101,3 +101,8 @@ textarea {
   color: rgb(240, 47, 47);
 }
 
+.bloco-delete{
+  border: blue 1px solid;
+  width: 20%;
+  margin: auto;
+}

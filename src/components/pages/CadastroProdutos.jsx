@@ -67,7 +67,23 @@ export default function CadastroProdutos() {
                         </div>
                     </div>
                 </div>
+                
             </main>
+            <h1 className='tituloProdutos'>Deletar Produtos</h1>
+            <div className='bloco-delete'>
+            <div className="cardProdutos" >
+                    <h1 className="cardTitulo">Deletar Produto</h1>
+                    <div className="card-line-post" ></div>
+                    <div className="card-body-post" >
+                        <div className="btn-post" >
+                            <Link to="/deletarproduto">
+                                <button className="botao-produto" type="submit" >Seguir</button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
         </div>
 
     )
