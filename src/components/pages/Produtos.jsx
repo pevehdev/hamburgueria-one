@@ -37,7 +37,7 @@ export default function Produtos() {
   return (
 
     <div>
-      <h2 className="tituloProduto">Hamburguers</h2>
+      <h2 className="tituloProduto">Hambúrgueres</h2>
       <div >
 
         {hamburguers ? (
@@ -60,7 +60,7 @@ export default function Produtos() {
             ))}
           </div>
         ) : (
-          <div>Loading...</div>
+          <img src='../imagens/Loading.gif' className='load'></img>
         )}
       </div>
 
@@ -94,7 +94,7 @@ export default function Produtos() {
             ))}
           </div>
         ) : (
-          <div>Loading...</div>
+         <img src='../imagens/Loadingrefri.gif' className='load'></img>
         )}
       </div>
 
@@ -127,7 +127,7 @@ export default function Produtos() {
             ))}
           </div>
         ) : (
-          <div>Loading...</div>
+           <img src='../imagens/Loadingbatata.gif' className='load'></img>
         )}
       </div>
 
@@ -160,7 +160,7 @@ export default function Produtos() {
             ))}
           </div>
         ) : (
-          <div>Loading...</div>
+        <img src='../imagens/Loadingcombo.gif' className='load'></img>
         )}
       </div>
 
