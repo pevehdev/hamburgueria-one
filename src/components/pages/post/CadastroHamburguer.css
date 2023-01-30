@@ -14,7 +14,6 @@
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid ccc;
   border-radius: 4px;
 }
 
@@ -30,6 +29,10 @@
 }
 .label-color{
   color: black;
+}
+.back img{
+  width: 100px;
+  height: 100px;
 }
 /*  */
 

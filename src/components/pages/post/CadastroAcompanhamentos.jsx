@@ -5,6 +5,8 @@ import { useForm } from 'react-hook-form'
 import "./CadastroAcompanhamentos.css"
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import img4 from '../../../../imagens/back.png'
+import { Link } from "react-router-dom";
 
 const schema = yup.object().shape({
   nome: yup.string().required("O nome é obrigatório").max(40, "Máximo de 40 caracteres"),
@@ -53,6 +55,12 @@ const AcompanhamentosForm = () => {
   }
   return (
       <main>
+        <div className='back'>
+            <Link to="/cadastroprodutos">
+            <img src={img4} alt="" srcset="" />
+            </Link>
+        </div>
+        
       <form className='formularioCadastroAcompanhamentos' onSubmit={handleSubmit}>
       <h1> Cadastro de Acompanhamentos </h1>
           <div>
