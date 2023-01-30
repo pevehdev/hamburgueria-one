@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import img from "../../../imagens/bburguer.jpg"
-import img2 from "../../../imagens/FazerPedido.jpeg"
+import img2 from "../../../imagens/FazerPedido.png"
 import { Link } from "react-router-dom";
 
 export default function Home() {
